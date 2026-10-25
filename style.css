@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: Josefin Sans,sans-serif;
+    font-size: 14px;
+
+}
+.container {
+    width: 1040px;
+    margin: 80px auto;
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+}
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px ;
+    gap: 10px ;
+    background-image: url(/images/bg-pattern-desktop.svg);
+
+
+}
+.content > img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+
+
+.we {
+    text-transform: uppercase;
+    font-size: 48px;
+    letter-spacing: 5px !important;
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+    margin-top: 40px;
+}
+
+.coming {
+    text-transform: uppercase;
+    font-size: 48px;
+    letter-spacing: 5px !important;
+    font-weight:  600;
+    margin-bottom: 10px;
+}
+
+p {
+    color: hsl(0, 36%, 70%);
+    font-size: 14px;
+    line-height: 1.7;
+margin-bottom: 30px;
+}
+
+
+.input {
+    display: flex;
+    border: 1px solid hsl(0, 36%, 70%);
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.input input {
+    outline: none;
+    border: none;
+    margin: 20px;
+}
+
+span {
+    padding: 20px 40px;
+    background-color:hsl(0, 93%, 68%) ;
+border-radius: 30px;
+}
